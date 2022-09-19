@@ -24,5 +24,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Change Password/Validate change password form</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>47d62efc-bf04-4d34-a6b4-655b0038f118</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a0fee9ea-4e33-435b-bb7c-353e302765db</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

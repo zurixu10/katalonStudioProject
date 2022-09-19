@@ -5,4 +5,13 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>020d9069-95d7-4793-8b12-634bdb9f82c5</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e5724433-738d-4aaf-83d9-6204c8477797</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/TestDataDriven</testDataId>
+   </testDataLinks>
 </TestCaseEntity>

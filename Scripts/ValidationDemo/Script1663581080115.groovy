@@ -17,15 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login/Login Successfully'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Change Password/i_PIM_oxd-icon bi-caret-down-fill oxd-userdropdown-icon'), FailureHandling.STOP_ON_FAILURE)
+WebUI.navigateToUrl('https://applitools.com/helloworld2/')
 
-WebUI.click(findTestObject('Change Password/a_Change Password'))
+WebUI.click(findTestObject('Object Repository/Page_Applitools/a_diff1'))
 
-WebUI.setText(findTestObject('Change Password/input_Current Password_oxd-input oxd-input--active'), currentPassword)
+CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow'('Test1')
 
-WebUI.click(findTestObject('Change Password/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_Applitools/a_diff2'))
+
+WebUI.click(findTestObject('Object Repository/Page_Applitools/button_Click me'))
+
+CustomKeywords.'com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow'('Test2')
 
 WebUI.closeBrowser()
 

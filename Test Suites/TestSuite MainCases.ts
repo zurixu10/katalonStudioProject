@@ -24,5 +24,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Change Password/Change Password Sucessfully</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a8fe5c1e-496d-4d54-8226-4024cf4f12f8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
