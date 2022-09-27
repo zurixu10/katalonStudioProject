@@ -3,6 +3,16 @@
    <description></description>
    <name>ValidationDemo</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value></value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>4dde90d4-e7da-4f11-a6a4-4c6bfb4f3975</testCaseGuid>
 </TestCaseEntity>

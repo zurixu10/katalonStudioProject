@@ -16,7 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Login/Validate Login Form</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>94ed056f-760f-4eb7-87c6-76065638c7ef</guid>
@@ -36,5 +36,12 @@
          <value></value>
          <variableId>a0fee9ea-4e33-435b-bb7c-353e302765db</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fc69361c-a5bc-462f-8a53-905b305ba57e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/ValidationDemo</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
